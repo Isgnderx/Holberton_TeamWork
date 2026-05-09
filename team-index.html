@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Team Portfolio</title>
   <link rel="stylesheet" href="team-style.css" />
+  <link rel="stylesheet" href="contact-style.css" />
 </head>
 <body>
   <section id="about" class="about-section">
@@ -25,7 +26,49 @@
     </div>
   </section>
 
+  <section id="contact" class="contact-section">
+    <div class="container">
+      <h2 class="section-title">Get in Touch</h2>
+      <p class="section-subtitle">Have a project in mind or just want to say hello? Drop us a message.</p>
+      <form class="contact-form" id="contactForm" novalidate>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="contactName">Name</label>
+            <input type="text" id="contactName" name="name" placeholder="Your name" required />
+          </div>
+          <div class="form-group">
+            <label for="contactEmail">Email</label>
+            <input type="email" id="contactEmail" name="email" placeholder="your@email.com" required />
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="contactMessage">Message</label>
+          <textarea id="contactMessage" name="message" rows="5" placeholder="Tell us about your project..." required></textarea>
+        </div>
+        <button type="submit" class="submit-btn">Send Message</button>
+        <p class="form-feedback" id="formFeedback" aria-live="polite"></p>
+      </form>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="footer-logo">Team Portfolio</span>
+        <p class="footer-tagline">Built with passion at Holberton School.</p>
+      </div>
+      <div class="footer-links">
+        <h3 class="footer-links-title">Connect</h3>
+        <ul class="footer-social" id="footerSocial"></ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; <span id="footerYear"></span> Team Portfolio. All rights reserved.</p>
+    </div>
+  </footer>
+
   <script src="data.js"></script>
   <script src="team-app.js"></script>
+  <script src="contact-app.js"></script>
 </body>
 </html>
