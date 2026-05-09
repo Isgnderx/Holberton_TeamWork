@@ -70,12 +70,20 @@ body {
   width: 64px;
   height: 64px;
   border-radius: 50%;
+  overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 1.25rem;
   font-weight: 600;
   margin: 0 auto 1rem;
+}
+
+.member-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
 }
 
 .member-name {
@@ -115,6 +123,11 @@ body {
   border-radius: 6px;
   background: #1a1a1b;
   transition: background 0.15s, color 0.15s;
+}
+
+.member-socials span {
+  font-size: 0.78rem;
+  color: #9e9ea3;
 }
 
 .member-socials a:hover {
