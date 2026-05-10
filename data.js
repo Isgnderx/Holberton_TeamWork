@@ -7,7 +7,7 @@ const teamMembers = [
   {
     name: "Cabir",
     github: "https://github.com/Jorix2007",
-    linkedin: "#",
+    linkedin: "https://www.linkedin.com/in/jorix2007/",
   },
   {
     name: "Agil",
@@ -16,12 +16,12 @@ const teamMembers = [
   },
   {
     name: "Leyla",
-    github: "#",
-    linkedin: "#",
+    github: "https://github.com/gurbanovaleyla",
+    linkedin: "https://www.linkedin.com/in/gurbanova-leyla/",
   },
   {
     name: "Nazli",
-    github: "#",
-    linkedin: "#",
+    github: "https://github.com/nazli444",
+    linkedin: "https://www.linkedin.com/in/nazli-nametova-a5445a39a/",
   },
 ];
